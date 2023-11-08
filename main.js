@@ -5,5 +5,5 @@ for (let i = 0; i < listButtons.length; i++) {
     const elementAudios = listAudios[i];
     element.addEventListener('click', () => {
 
-   elementAudios.play() })
+   elementAudios.play(); });
 }
