@@ -1,9 +1,11 @@
-const listbuttons= document.querySelector(".#tecla_som_pom")
-const listaudios + document.querySelector(".keye.wav")
-for (let i = 0; i < listbuttons; i++) {
-    const element = listbuttons[i];
-    const element = listaudios[i];
-    element.addEventListener("click",()=>{
-        keye.wav.play();
-    })
+const listButtons = document.querySelectorAll(".tecla_som_pom");
+const listAudios = document.querySelectorAll(".keye.wav");
+
+for (let i = 0; i < listButtons.length; i++) {
+    const button = listButtons[i];
+    const audio = listAudios[i];
+    
+    button.addEventListener("click", () => {
+        audio.play();
+    });
 }
