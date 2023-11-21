@@ -1,11 +1,4 @@
-const listButtons = document.querySelectorAll(".tecla");
-const listAudios = document.querySelectorAll("audio");
-
-for (let i = 0; i < listButtons.length; i++) {
-    const button = listButtons[i];
-    const audio = listAudios[i];
-
-    button.addEventListener('click', () => {
-        audio.play();
-    });
+function toca SomPom(){
+    document.querySelector(`#som_tecla_pom`);
 }
+document.querySelector(`.tecla_pom`).onclick="tocaSomPom";
